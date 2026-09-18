@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Focus-Mode",
   "version": "1.1.0",
-  "description": "Blocks distracting websites (social media, AI tools, video platforms) during active Focus Mode sessions.",
+  "description": "Blocks specified distracting social media platforms, messaging tools, and AI assistants during active focus sessions.",
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback",
