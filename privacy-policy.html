@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Focus-Mode Extension</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      background-color: #f9fafb;
+    }
+    .card {
+      background: #ffffff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    }
+    h1 { color: #111827; margin-top: 0; }
+    h2 { color: #374151; margin-top: 1.5rem; }
+    p { margin-bottom: 1rem; }
+    footer { margin-top: 2rem; font-size: 0.875rem; color: #6b7280; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Privacy Policy for Focus-Mode</h1>
+    <p><strong>Effective Date:</strong> September 19, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>Focus-Mode ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how our Chrome Extension handles information when you use our service.</p>
+
+    <h2>2. Data Collection and Usage</h2>
+    <p><strong>We do NOT collect, transmit, store, or share any personal user data.</strong></p>
+    <p>All focus session timers, enabled/disabled states, and blocking rules are processed and stored exclusively on your local device using standard browser local storage (<code>chrome.storage.local</code>).</p>
+
+    <h2>3. Browser Permissions</h2>
+    <p>Our extension requests specific browser permissions solely to perform its core function of website blocking during active focus sessions:</p>
+    <ul>
+      <li><code>declarativeNetRequest</code>: Used locally to block access to specified distracting domain names during active focus sessions.</li>
+      <li><code>storage</code>: Used to save your focus session preferences locally on your computer.</li>
+      <li><code>alarms</code>: Used to run session timer countdowns locally.</li>
+      <li><code>tabs</code> / <code>activeTab</code>: Used to detect tab state for active overlay displays.</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <p>Focus-Mode does not use third-party tracking, analytics, remote servers, or advertising networks.</p>
+
+    <h2>5. Contact Us</h2>
+    <p>If you have any questions regarding this Privacy Policy, you may contact us via our official website at <a href="https://tawjihi.app">https://tawjihi.app</a>.</p>
+  </div>
+  <footer>
+    &copy; 2026 Focus-Mode / Tawjihi.app. All rights reserved.
+  </footer>
+</body>
+</html>
